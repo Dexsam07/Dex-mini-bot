@@ -8,7 +8,7 @@ module.exports = {
     ownerName: ['Dex Mini bot', 'Shyam'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
-    botName: 'Dex-mini-bot,
+    botName: 'Dex-mini-bot',
     prefix: '.',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
