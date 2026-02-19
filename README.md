@@ -31,7 +31,7 @@ All commands and the overall structure are written in a way that makes customiza
 
 <div align="center">
 
-<a href="https://github.com/mruniquehacker/Knightbot-Mini/fork" target="_blank">
+<a href="https://github.com/Dexsam07/Dex-mini-bot/fork" target="_blank">
   <img src="https://img.shields.io/badge/Fork%20Repository-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Fork on GitHub">
 </a>
 
@@ -94,8 +94,8 @@ For a full step‑by‑step deployment tutorial (panels / VPS / Heroku), add or 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/mruniquehacker/Knightbot-Mini.git
-cd Knightbot-Mini
+git clone [https://github.com/Dexsam07/Dex-mini-bot.git
+cd Dex-mini-bot
 ```
 
 ### 2️⃣ Install dependencies
