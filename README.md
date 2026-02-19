@@ -1,4 +1,4 @@
-Professorrofessordiv align="center">
+DEX-SHYAM-HA4KR  align="center">
 
 ## Dex mini bot 
 [![Made with Baileys](https://img.shields.io/badge/Made%20with-Baileys-00bcd4?style=for-the-badge)](https://github.com/WhiskeySockets/Baileys)
@@ -37,7 +37,7 @@ All commands and the overall structure are written in a way that makes customiza
 
 </div>
 
-> This creates your own copy of `Knightbot-Mini` under your GitHub account.
+> This creates your own copy of `Dex-mini-Bot` under your GitHub account.
 
 ---
 
