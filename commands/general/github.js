@@ -19,7 +19,7 @@ module.exports = {
             
             // GitHub repository URL
             const repoUrl = 'https://github.com/Dexsam07/As-zara-mini';
-            const apiUrl = 'https://api.github.com/repos/Dexsam07/As-zara-mini;
+            const apiUrl = 'https://api.github.com/repos/Dexsam07/As-zara-mini';
             
             // Send loading message
             const loadingMsg = await extra.reply('🔍 Fetching GitHub repository information...');
