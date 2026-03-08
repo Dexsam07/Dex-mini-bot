@@ -69,7 +69,7 @@ Use the pair code generator to get a session string. Scan the QR code with your 
 
 <div align="center">
   
-[![Generate Pair Code](https://img.shields.io/badge/Generate-Pair%20Code-blueviolet?style=for-the-badge)](https://as-zara.zone.id/)
+[![Generate Pair Code](https://img.shields.io/badge/Generate-Pair%20Code-blueviolet?style=for-the-badge)](https://as-dex-zara.zone.id/)
 
 </div>
 
