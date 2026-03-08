@@ -58,7 +58,7 @@ module.exports = {
       await sendButtons(sock, extra.from, {
         title: '',
         text: menu,
-        footer: `> *Powered by Shyam ${config.botName}*`,
+        footer: `> *Powered by ${config.botName}*`,
         buttons: [
           {
             name: 'cta_url',

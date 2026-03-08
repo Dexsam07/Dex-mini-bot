@@ -31,7 +31,7 @@ module.exports = {
       const displayOwner = ownerNames[0] || config.ownerName || 'Bot Owner';
       
       let menuText = `╭━━『 *${config.botName}* 』━━╮\n\n`;
-      menuText += `👋 welcome Dex mimi bot @${extra.sender.split('@')[0]}!\n\n`;
+      menuText += `👋 welcome AS-ZARA-MINI @${extra.sender.split('@')[0]}!\n\n`;
       menuText += `⚡ Prefix: ${config.prefix}\n`;
       menuText += `📦 Total Commands: ${commands.size}\n`;
       menuText += `👑 Owner: ${displayOwner}\n\n`;
@@ -148,7 +148,7 @@ module.exports = {
       
       menuText += `╰━━━━━━━━━━━━━━━━━\n\n`;
       menuText += `💡 Type ${config.prefix}help <command> for more info\n`;
-      menuText += `🌟 Dex-mini-bot Version: 1.0.0\n`;
+      menuText += `🌟 As-zara-mini Version: 1.0.0\n`;
       
       // Send menu with image
       const fs = require('fs');
