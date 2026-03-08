@@ -17,24 +17,22 @@ module.exports = {
         try {
             const chatId = extra.from;
             
-            // GitHub repository URL
+            // ===== YAHAN APNA REPO DALO =====
             const repoUrl = 'https://github.com/Dexsam07/As-zara-mini';
             const apiUrl = 'https://api.github.com/repos/Dexsam07/As-zara-mini';
+            // =================================
             
-            // Send loading message
             const loadingMsg = await extra.reply('🔍 Fetching GitHub repository information...');
             
             try {
-                // Fetch repository data from GitHub API
                 const response = await axios.get(apiUrl, {
                     headers: {
-                        'User-Agent': 'As-zara-mini'
+                        'User-Agent': 'As-zara-mini'  // optional, kuch bhi likho
                     }
                 });
                 
                 const repo = response.data;
                 
-                // Format the response with proper styling
                 let message = `╭━━『 *GitHub Repository* 』━━╮\n\n`;
                 message += `🤖 *Bot Name:* ${config.botName}\n`;
                 message += `🔗 *Repository:* ${repo.name}\n`;
@@ -54,27 +52,25 @@ module.exports = {
                 message += `📥 Clone: git clone ${repo.clone_url}\n\n`;
                 
                 message += `╰━━━━━━━━━━━━━━━╯\n\n`;
-                message += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHYAM ${config.botName}*`;
+                message += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ${config.botName}*`;
                 
-                // Edit the loading message with the actual data
                 await sock.sendMessage(chatId, {
                     text: message,
                     edit: loadingMsg.key
                 });
                 
             } catch (apiError) {
-                // Fallback message if API fails
                 console.error('GitHub API Error:', apiError.message);
                 
                 let fallbackMessage = `╭━━『 *GitHub Repository* 』━━╮\n\n`;
                 fallbackMessage += `🤖 *Bot Name:* ${config.botName}\n`;
-                fallbackMessage += `🔗 *Repository:* As-zara-mini\n`;
-                fallbackMessage += `👨‍💻 *Owner:* Dexsam07\n`;
+                fallbackMessage += `🔗 *Repository:* As-zara-mini\n`;   // yahan bhi apna naam
+                fallbackMessage += `👨‍💻 *Owner:* Dexsam07\n`;           // owner naam
                 fallbackMessage += `🌐 *URL:* ${repoUrl}\n\n`;
                 fallbackMessage += `⚠️ *Note:* Unable to fetch real-time statistics.\n`;
                 fallbackMessage += `Please visit the repository directly for latest stats.\n\n`;
                 fallbackMessage += `╰━━━━━━━━━━━━━━━╯\n\n`;
-                fallbackMessage += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ SHYAM ${config.botName}*`;
+                fallbackMessage += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ${config.botName}*`;
                 
                 await sock.sendMessage(chatId, {
                     text: fallbackMessage,
