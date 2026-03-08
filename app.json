@@ -1,5 +1,5 @@
 {
-  "name": "Dex-mini-bot",
+  "name": "AS-ZARA-MINI",
   "description": "WhatsApp MD bot (Baileys)",
   "repository": "",
   "keywords": ["whatsapp", "baileys", "bot", "node"],
@@ -10,7 +10,7 @@
   ],
   "env": {
     "SESSION_ID": {
-      "description": "DEXMINIBOT session string (e.g. DEXMINIBOT~<base64_compressed_data>)",
+      "description": "AS session string (e.g. AS~<base64_compressed_data>)",
       "required": false,
       "value": ""
     }
